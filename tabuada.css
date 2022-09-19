@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#box{
+    border: solid 3px #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#calcular{
+    display: block;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+}
+
+#tabela{
+    margin-top: 10px;
+    width: 150px;
+    height: 300px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    padding: 5px;
+    list-style: none;
+    font-size: x-large;
+}
